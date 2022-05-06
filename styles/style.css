@@ -1,3 +1,16 @@
 body {
     background:gainsboro;
 }
+h1 {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Zilla Slab', serif;
+}
+p {
+    font-family: 'Lobster', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Zilla Slab', serif;
+}
