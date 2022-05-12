@@ -28,7 +28,28 @@ h1,
     line-height: 1.5;
 font-family: var(--heading-font-family);
 }
-
+nav {
+    padding: 20px 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+    color: var(--branding-clor);
+}
 .content h1 {
     font-size: 64px;
     line-height: 80px;
@@ -70,6 +91,9 @@ p {
 img {
     padding: 10px 30px;
 }
+.logo {
+    max-height: 40px;
+}
 
 .btn-branding {
     background: var(--branding-clor);
@@ -108,5 +132,8 @@ img {
     }
     .hero {
         padding: 80px 20px;
+    }
+    nav a {
+        font-size: 12px;
     }
 }
