@@ -74,6 +74,38 @@ nav li.active a {
 .content {
     margin: 30px;
 }
+footer {
+    margin: 60px 0;
+}
+footer .contact-box {
+    background: var(--secondry-color);
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+footer .contact-box p {
+    margin: 0;
+}
+footer .email-link {
+text-decoration: none;
+color: black;
+font-size: 24px;
+}
+footer .email-link:hover {
+color: var(--branding-clor);
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-clor);
+    background: var(--secondry-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-clor);
+}
 h1 {
     font-size: 96px;
     line-height: 1.5;
@@ -81,6 +113,9 @@ h1 {
 }
 h2 {
     font-size: 64px;
+}
+h4 {
+    font-size: 48px;
 }
 
 p {
